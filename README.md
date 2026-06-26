@@ -32,14 +32,22 @@ A **beginner-friendly** study log. One diagram per concept, bilingual (CN/EN), h
 | 03 | [一个真实例子：修 Bug](notes/03-loop-example.md) | 看 Agent 一圈圈是怎么转的 |
 | 04 | [四大零件](notes/04-components.md) | 大脑 / 工具 / 记忆 / 目标 |
 | 05 | [术语表](notes/05-glossary.md) | 中英对照速查 |
+| 06 | [工具是怎么调用的](notes/06-tools.md) | 模型只"填表单"，执行靠外部程序 |
+| 07 | [上下文与记忆](notes/07-context-memory.md) | 为什么 Agent 会"忘事" |
+| 08 | [系统提示词](notes/08-system-prompt.md) | Agent 的"岗前说明书" |
+| 09 | [多 Agent 协作](notes/09-multi-agent.md) | 主管 + 工人,拆活分工 |
+| 10 | [新手常见误区](notes/10-pitfalls.md) | 幻觉、记忆、验证心法 |
 
 ---
 
 ## 还想学的（TODO）/ Want to Learn Next
 
-- [ ] 工具（Tool）是怎么定义和调用的 / How tools are defined & called
-- [ ] 上下文 / 记忆是怎么管理的（为什么 Agent 会"忘事"）/ Context & memory management
-- [ ] 多个 Agent 怎么协作分工 / Multi-agent collaboration
+- [x] 工具（Tool）是怎么定义和调用的 / How tools are defined & called → [06](notes/06-tools.md)
+- [x] 上下文 / 记忆是怎么管理的（为什么 Agent 会"忘事"）/ Context & memory management → [07](notes/07-context-memory.md)
+- [x] 多个 Agent 怎么协作分工 / Multi-agent collaboration → [09](notes/09-multi-agent.md)
+- [ ] 工具调用之外:Agent 怎么"规划"长任务 / Planning long tasks
+- [ ] 怎么评估一个 Agent 好不好（Evaluation）/ How to evaluate an Agent
+- [ ] 安全与权限:Agent 会不会乱来 / Safety & permissions
 
 ---
 
