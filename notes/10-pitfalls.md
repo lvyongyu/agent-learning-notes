@@ -50,7 +50,7 @@ not to be *truthful*.
 05 术语表  06 工具  07 记忆  08 系统提示词  09 多 Agent  10 误区(本篇)
 ```
 
-恭喜!你已经把 Agent 的核心拼图凑齐了 🎉
-Congrats — you've assembled the core picture of how Agents work! 🎉
+恭喜!你已经把 Agent 的**核心拼图**凑齐了 🎉 接下来是进阶篇。
+Congrats — you've assembled the *core picture* of how Agents work! 🎉 Next up: the advanced notes.
 
-➡️ 回到 / Back to: [README 目录](../README.md)
+➡️ 下一篇 / Next: [Agent 怎么规划长任务](11-planning.md)

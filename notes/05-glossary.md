@@ -18,6 +18,19 @@ Common terms you'll meet in interviews and English docs.
 | ReAct | **ReAct** | "推理+行动"的经典 Agent 模式 / Reasoning + Acting pattern |
 | 子智能体 | **Sub-agent** | 主 Agent 派出去做子任务的小 Agent / a helper Agent for subtasks |
 | 检索增强 | **RAG** (Retrieval-Augmented Generation) | 先查资料再回答 / look things up before answering |
+| 输入规格 | **Input Schema** | 工具参数的格式约定 / the spec of a tool's arguments |
+| 工具结果 | **Tool Result** | 工具执行后回传给模型的内容 / what a tool returns to the model |
+| 幻觉 | **Hallucination** | 模型一本正经编造的假内容 / confident but false output |
+| 提示词注入 | **Prompt Injection** | 把坏指令藏进数据里冒充命令 / hidden malicious instructions in data |
+| 提示词工程 | **Prompt Engineering** | 把提示词写好的手艺 / the craft of writing good prompts |
+| 规划/拆解 | **Planning / Decomposition** | 把大任务拆成步骤再执行 / break a big task into steps |
+| 评估集 | **Eval** | 用题目集给 Agent 打分 / a test set to score an Agent |
+| AI 当裁判 | **LLM-as-judge** | 用另一个模型给输出打分 / use a model to grade output |
+| 人在环中 | **Human in the Loop** | 关键操作让人确认 / a human confirms key actions |
+| 最小权限 | **Least Privilege** | 只给必需的权限 / grant only what's needed |
+| 向量 | **Embedding** | 把文字变成一串表示"意思"的数字 / text turned into meaning-numbers |
+| 向量数据库 | **Vector DB** | 按"意思"存取片段的库 / store & search by meaning |
+| 模型上下文协议 | **MCP** (Model Context Protocol) | 接外部工具的统一标准 / a universal tool-plug standard |
 
 ---
 
