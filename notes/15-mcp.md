@@ -56,19 +56,14 @@ Look familiar? It's the tool-call flow from [Note 06](06-tools.md), just wrapped
 > 小知识 / Note:Claude Code 支持连接 **MCP 服务器**——比如接上一个数据库 MCP,我就能直接帮你查数据,而不用你额外写对接代码。
 > Claude Code can connect to **MCP servers** — hook up a database MCP and I can query your data directly, no glue code from you.
 
-## 全系列完结 / End of the Series 🎉
+## 第一阶段完结 / End of Stage One 🎉
 
 ```
 入门:01-05  →  核心:06-10  →  进阶:11-13  →  扩展:14-15
 basics       core           advanced        extensions
 ```
 
-你现在已经走完一条完整路线:
-**循环 → 工具 → 记忆 → 提示词 → 多 Agent → 规划 → 评估 → 安全 → RAG → MCP。**
-You've now walked the full path:
-**loop → tools → memory → prompts → multi-agent → planning → eval → safety → RAG → MCP.**
+到这里你已经理解了 Agent 的**完整工作原理**。后面 16–25 是第二阶段:深入设计模式、提示词工程、模型底层原理。
+You now understand how an Agent *works end to end*. Notes 16–25 are Stage Two: design patterns, prompt engineering, and the model's inner workings.
 
-下一步最好的学习方式:**带着这些概念,回头观察你正在用的 Claude Code**——它每一个行为,都能对上其中一篇笔记。
-Best next step: *re-watch the Claude Code you're using* with these concepts in mind — every behavior maps to one of these notes.
-
-➡️ 回到 / Back to: [README 目录](../README.md)
+➡️ 下一篇 / Next: [思维链 CoT](16-chain-of-thought.md)

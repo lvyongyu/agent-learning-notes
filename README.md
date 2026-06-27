@@ -53,6 +53,34 @@ A **beginner-friendly** study log. One diagram per concept, bilingual (CN/EN), h
 | 14 | [RAG 检索增强](notes/14-rag.md) | 回答前先查资料,开卷考试 |
 | 15 | [MCP 工具协议](notes/15-mcp.md) | 接外部工具的"USB 标准" |
 
+> 🎉 以上 01–15 = **第一阶段:理解 Agent 完整原理**。下面 16–25 是第二阶段进阶。
+> Notes 01–15 = **Stage One: how an Agent works**. Notes 16–25 below are Stage Two.
+
+### 进阶模式篇 / Patterns（设计套路）
+
+| # | 笔记 / Note | 一句话 / TL;DR |
+|---|-------------|----------------|
+| 16 | [思维链 CoT](notes/16-chain-of-thought.md) | 让模型想出声,答得更准 |
+| 17 | [ReAct 详解](notes/17-react.md) | 边想边用工具,Agent 基本盘 |
+| 18 | [反思与自我纠错](notes/18-reflection.md) | 做完自审再改,少出错 |
+| 19 | [常见模式对比](notes/19-agent-patterns.md) | CoT/ReAct/反思/规划/路由 怎么选 |
+
+### 提示词工程篇 / Prompt Engineering
+
+| # | 笔记 / Note | 一句话 / TL;DR |
+|---|-------------|----------------|
+| 20 | [few-shot 示例](notes/20-few-shot.md) | 给例子比讲道理管用 |
+| 21 | [结构化输出](notes/21-structured-output.md) | 让程序能直接读的 JSON |
+| 22 | [提示词调优技巧](notes/22-prompt-tips.md) | 七招让模型更听话 |
+
+### 底层原理篇 / Under the Hood
+
+| # | 笔记 / Note | 一句话 / TL;DR |
+|---|-------------|----------------|
+| 23 | [模型怎么训练出来的](notes/23-training.md) | 预训练→微调→RLHF |
+| 24 | [采样参数:温度等](notes/24-sampling.md) | 控制"稳定 vs 放飞" |
+| 25 | [为什么模型有这些脾气](notes/25-why-models-behave.md) | 一表解释所有"怪现象"(总收尾) |
+
 ---
 
 ## 还想学的（TODO）/ Want to Learn Next
@@ -65,9 +93,16 @@ A **beginner-friendly** study log. One diagram per concept, bilingual (CN/EN), h
 - [x] 安全与权限:Agent 会不会乱来 / Safety & permissions → [13](notes/13-safety.md)
 - [x] RAG 检索增强:怎么让 Agent 查资料再回答 / Retrieval-Augmented Generation → [14](notes/14-rag.md)
 - [x] MCP:给 Agent 接外部工具的标准协议 / Model Context Protocol → [15](notes/15-mcp.md)
+- [x] 设计模式:CoT / ReAct / 反思 / 路由 / Agent design patterns → [16–19](notes/16-chain-of-thought.md)
+- [x] 提示词工程进阶:few-shot / 结构化输出 / 技巧 / Prompt engineering → [20–22](notes/20-few-shot.md)
+- [x] 底层原理:训练 / 采样参数 / 模型脾气 / Under the hood → [23–25](notes/23-training.md)
+- [ ] (未来 / future) 动手建一个最小 Agent / Build a minimal Agent from code
+- [ ] (未来 / future) 多模态:让 Agent 看图听声 / Multimodal agents
+- [ ] (未来 / future) 上线工程:可观测、重试、成本控制 / Productionizing agents
 
-> 🎉 核心 + 进阶 + 扩展全部完结。下一步:带着这些概念回头观察你正在用的 Claude Code。
-> All notes complete. Next step: re-watch the Claude Code you're using with these concepts in mind.
+> 🎉 **25 篇全部完结**——从"Agent 是什么"到"模型为什么会这样"。
+> 下一步:带着这些概念回头观察你正在用的 Claude Code,每个行为都能对上一篇笔记。
+> All 25 notes complete — from "what is an Agent" to "why the model behaves this way".
 
 ---
 

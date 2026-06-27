@@ -31,6 +31,21 @@ Common terms you'll meet in interviews and English docs.
 | 向量 | **Embedding** | 把文字变成一串表示"意思"的数字 / text turned into meaning-numbers |
 | 向量数据库 | **Vector DB** | 按"意思"存取片段的库 / store & search by meaning |
 | 模型上下文协议 | **MCP** (Model Context Protocol) | 接外部工具的统一标准 / a universal tool-plug standard |
+| 思维链 | **CoT** (Chain-of-Thought) | 让模型一步步想出声 / reason step by step |
+| 反思 | **Reflection** | 做完自我审查再改 / self-critique then revise |
+| 先规划后执行 | **Plan-and-Execute** | 先列完整计划再逐项做 / plan all, then do |
+| 路由 | **Router** | 先判断类型再分派 / classify then dispatch |
+| 零样本 | **Zero-shot** | 不给例子直接问 / ask with no examples |
+| 少样本 | **Few-shot** | 给几个例子让它照学 / show a few examples |
+| 结构化输出 | **Structured Output** | 输出程序可读的格式(JSON)/ machine-readable output |
+| 预训练 | **Pre-training** | 海量文本学"猜下一个词" / learn next-token on huge text |
+| 微调 | **Fine-tuning / SFT** | 用范例教它好好回答 / teach it to answer well |
+| 人类反馈强化学习 | **RLHF** | 用人的偏好对齐模型 / align via human preference |
+| 对齐 | **Alignment** | 让行为符合人类期望 / match human expectations |
+| 知识截止日期 | **Knowledge Cutoff** | 训练数据的时间上限 / when its knowledge stops |
+| 温度 | **Temperature** | 控制随机/创意程度 / randomness dial |
+| 核采样 | **Top-p** | 只在高概率候选里抽词 / sample from top probability mass |
+| 幻觉(根因) | **Next-token Prediction** | 模型本质:按概率猜下一个词 / its essence |
 
 ---
 
