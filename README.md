@@ -79,7 +79,15 @@ A **beginner-friendly** study log. One diagram per concept, bilingual (CN/EN), h
 |---|-------------|----------------|
 | 23 | [模型怎么训练出来的](notes/23-training.md) | 预训练→微调→RLHF |
 | 24 | [采样参数:温度等](notes/24-sampling.md) | 控制"稳定 vs 放飞" |
-| 25 | [为什么模型有这些脾气](notes/25-why-models-behave.md) | 一表解释所有"怪现象"(总收尾) |
+| 25 | [为什么模型有这些脾气](notes/25-why-models-behave.md) | 一表解释所有"怪现象" |
+
+### 实战篇 / Hands-on（从原理到产品）
+
+| # | 笔记 / Note | 一句话 / TL;DR |
+|---|-------------|----------------|
+| 26 | [动手建一个最小 Agent](notes/26-build-minimal-agent.md) | 几十行代码,核心就是一个循环 |
+| 27 | [多模态:看图听声](notes/27-multimodal.md) | 让 Agent 处理图片/语音/屏幕 |
+| 28 | [上线工程](notes/28-production.md) | 可观测/重试/成本/安全(大结局) |
 
 ---
 
@@ -96,13 +104,13 @@ A **beginner-friendly** study log. One diagram per concept, bilingual (CN/EN), h
 - [x] 设计模式:CoT / ReAct / 反思 / 路由 / Agent design patterns → [16–19](notes/16-chain-of-thought.md)
 - [x] 提示词工程进阶:few-shot / 结构化输出 / 技巧 / Prompt engineering → [20–22](notes/20-few-shot.md)
 - [x] 底层原理:训练 / 采样参数 / 模型脾气 / Under the hood → [23–25](notes/23-training.md)
-- [ ] (未来 / future) 动手建一个最小 Agent / Build a minimal Agent from code
-- [ ] (未来 / future) 多模态:让 Agent 看图听声 / Multimodal agents
-- [ ] (未来 / future) 上线工程:可观测、重试、成本控制 / Productionizing agents
+- [x] 动手建一个最小 Agent / Build a minimal Agent from code → [26](notes/26-build-minimal-agent.md)
+- [x] 多模态:让 Agent 看图听声 / Multimodal agents → [27](notes/27-multimodal.md)
+- [x] 上线工程:可观测、重试、成本控制 / Productionizing agents → [28](notes/28-production.md)
 
-> 🎉 **25 篇全部完结**——从"Agent 是什么"到"模型为什么会这样"。
+> 🎉 **28 篇全部完结**——从"Agent 是什么",到能看懂代码、理解模型脾气、知道怎么上线。
 > 下一步:带着这些概念回头观察你正在用的 Claude Code,每个行为都能对上一篇笔记。
-> All 25 notes complete — from "what is an Agent" to "why the model behaves this way".
+> All 28 notes complete — from "what is an Agent" to reading the code, understanding the model, and shipping it.
 
 ---
 

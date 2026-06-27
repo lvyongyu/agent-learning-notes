@@ -39,7 +39,7 @@ After [training](23-training.md) and [sampling](24-sampling.md), the "quirks" al
 理解这一条,前面 24 篇的所有设计——[工具](06-tools.md)、[记忆管理](07-context-memory.md)、[反思](18-reflection.md)、[RAG](14-rag.md)——本质上都是在**扬长补短**:放大它的语言能力,补上它不会算、会忘、会编的短板。
 Grasp this and all 24 prior designs — [tools](06-tools.md), [memory](07-context-memory.md), [reflection](18-reflection.md), [RAG](14-rag.md) — are really about *amplifying its strengths and patching its weaknesses*.
 
-## 🎓 全系列完结 / The Whole Series, Complete
+## 🎓 第二阶段完结 / End of Stage Two
 
 ```
 入门 01-05   核心 06-10   进阶 11-13   扩展 14-15
@@ -48,8 +48,8 @@ basics       core         advanced     extensions
 patterns     prompting    under-the-hood
 ```
 
-你已经从"Agent 是什么",一路走到了"模型为什么会这样"。
-You've gone from "what is an Agent" all the way to "why the model behaves like this".
+你已经从"Agent 是什么",一路走到了"模型为什么会这样"。最后一站(26–28)是实战:动手建、多模态、上线。
+You've gone from "what is an Agent" to "why the model behaves like this". The last stop (26–28) is hands-on: build, multimodal, ship.
 
 > 最后一句心法 / The final mindset:
 > **Agent 工程的本质,就是"知道模型擅长什么、不擅长什么,然后用工具、记忆、提示词、流程把它包装成一个靠谱的系统"。**
@@ -58,4 +58,4 @@ You've gone from "what is an Agent" all the way to "why the model behaves like t
 恭喜你学完整套 🎉 接下来——去读真实的 Agent 代码、自己搭一个、或者用这些概念反过来观察你正在用的 Claude Code。
 Congrats on finishing the whole thing 🎉 Next — read real Agent code, build one, or use these ideas to watch the Claude Code you're using.
 
-➡️ 回到 / Back to: [README 目录](../README.md)
+➡️ 下一篇 / Next: [动手建一个最小 Agent](26-build-minimal-agent.md)
